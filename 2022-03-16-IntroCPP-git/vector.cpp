@@ -2,6 +2,7 @@
 #include <vector>
 #include <cmath>
 #include <cstdlib>
+#include <algorithm>
 
 // function declaration
 void fill(std::vector<double> & xdata); // llenar el vector
