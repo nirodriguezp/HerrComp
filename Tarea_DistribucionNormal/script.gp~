@@ -1,0 +1,7 @@
+set term pdf
+set out "random_pdf.pdf"
+#set xlabel "N"
+#set ylabel "Diferencia x y x'"
+plot 'datos1.txt' u 1:2 w lp pt 4
+replot 'datos2.txt' u 1:2 w lp pt 2
+replot 'datos5.txt' u 1:2 w lp pt 3
